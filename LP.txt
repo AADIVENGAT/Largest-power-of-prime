@@ -1,0 +1,24 @@
+
+//Largest power of prime
+
+//  [while(n) 
+  n = 62/7
+  x+=n;
+  x=0
+  x=0+8 (iterate till n=0) //
+
+#include<stdio.h>
+int main()
+{
+    int n,p;
+    scanf("%d %d",&n,&p);
+    int x=0;
+    while(n)
+    {
+        n /= p;
+        x += n;
+    }
+    printf("%d",x);
+    return 0;
+
+}
